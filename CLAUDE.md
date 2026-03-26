@@ -3,7 +3,10 @@
 Read `insilico-screening.md` for full project specification.
  
 ## Scope boundary
- 
+
+The project is scientific code. Ask questions when unclear. Difficulties are expected.
+
+
 All heavy computation (ORCA, CREST, Multiwfn) runs outside this package on an HPC cluster via PBS. This package manages job submission.
  
 The Python code is responsible for:
