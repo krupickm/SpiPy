@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spipy"
+version = "0.1.0"
+description = "Computational pipeline for spiropyran photoswitches"
+requires-python = ">=3.11"
+dependencies = [
+    "rdkit",
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

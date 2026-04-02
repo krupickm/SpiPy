@@ -1,0 +1,13 @@
+name: spipy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdkit
+  - numpy
+  - pandas
+  - pytest>=7.0
+  - pytest-cov
+  - pip
+  - pip:
+    - -e .
